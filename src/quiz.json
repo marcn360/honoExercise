@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1,
+    "type": "radio",
+    "question": "A flashing red traffic light signifies that a driver should do what?",
+    "answers": [
+      {
+        "answer": "stop"
+      }
+    ],
+    "choices": [
+      {
+        "choice": "stop"
+      },
+      {
+        "choice": "speed up"
+      },
+      {
+        "choice": "proceed with caution"
+      },
+      {
+        "choice": "honk the horn"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "radio",
+    "question": "A knish is traditionally stuffed with what filling?",
+    "answers": [
+      {
+        "answer": "potato"
+      }
+    ],
+    "choices": [
+      {
+        "choice": "creamed corn"
+      },
+      {
+        "choice": "lemon custard"
+      },
+      {
+        "choice": "potato"
+      },
+      {
+        "choice": "raspberry jelly"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "radio",
+    "question": "A pita is a type of what?",
+    "answers": [
+      {
+        "answer": "flat bread"
+      }
+    ],
+    "choices": [
+      {
+        "choice": "fresh fruit"
+      },
+      {
+        "choice": "flat bread"
+      },
+      {
+        "choice": "French tart"
+      },
+      {
+        "choice": "friend bean dip"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "radio",
+    "question": "A portrait that comically exaggerates a person's physical traits is called a what?",
+    "answers": [
+      {
+        "answer": "caricature"
+      }
+    ],
+    "choices": [
+      {
+        "choice": "landscape"
+      },
+      {
+        "choice": "Impressionism"
+      },
+      {
+        "choice": "still life"
+      },
+      {
+        "choice": "caricature"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "A second-year college student is usually called a what?",
+    "answers": [
+      {
+        "answer": "sophomore"
+      }
+    ],
+    "choices":[]
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "A student who earns a J.D. can begin his or her career as a what?",
+    "answers": [
+      {
+        "answer": "lawyer"
+      }
+    ],
+    "choices":[]
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "A triptych is a work of art that is painted on how many panels?",
+    "answers": [
+      {
+        "answer": "three"
+      }
+    ],
+    "choices":[]
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "According to a famous line from the existentialist play 'No Exit' what is hell?",
+    "answers": [
+      {
+        "answer": "other people"
+      }
+    ],
+    "choices":[]
+  },
+  {
+    "id": 9,
+    "type": "checkbox",
+    "question": "Synonym of the word 'melancholy'. (Choose all that apply.)",
+    "answers": [
+      {
+        "answer": "sorrowful"
+      },
+      {
+        "answer": "mournful"
+      }
+    ],
+    "choices": [
+      {
+        "choice": "sorrowful"
+      },
+      {
+        "choice": "relating"
+      },
+      {
+        "choice": "mournful"
+      },
+      {
+        "choice": "lost"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "checkbox",
+    "question": "Synonym of the word 'rectify'. (Choose all that apply.)",
+    "answers": [
+      {
+        "answer": "amend"
+      }
+    ],
+    "choices": [
+      {
+        "choice": "approve"
+      },
+      {
+        "choice": "amend"
+      },
+      {
+        "choice": "lessen"
+      },
+      {
+        "choice": "improve"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "checkbox",
+    "question": "Antonym of the word 'renowned'. (Choose all that apply.)",
+    "answers": [
+      {
+        "answer": "unknown"
+      }
+    ],
+    "choices": [
+      {
+        "choice": "unknown"
+      },
+      {
+        "choice": "unrelating"
+      },
+      {
+        "choice": "unseen"
+      },
+      {
+        "choice": "lost"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "type": "checkbox",
+    "question": "Synonym of the word 'sedentary'. (Choose all that apply.)",
+    "answers": [
+      {
+        "answer": "active"
+      },
+      {
+        "answer": "mobile"
+      }
+    ],
+    "choices": [
+      {
+        "choice": "reach"
+      },
+      {
+        "choice": "standing"
+      },
+      {
+        "choice": "mobile"
+      },
+      {
+        "choice": "active"
+      }
+    ]
+  }
+]

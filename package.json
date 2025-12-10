@@ -1,0 +1,19 @@
+{
+  "name": "honoExercise",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.5",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.3",
+    "hono": "^4.10.7",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "wrangler": "^4.4.0"
+  }
+}
