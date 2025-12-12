@@ -18,12 +18,12 @@ npm run dev
   <br>
   Accepts:
     ```txt
-    { "answers": [ { "id": string|number, "value": string|number|number[] } ] }
+    { "answers": [ { "id": number, "answers": [ { "answer": string } ] } ] }
     ```
     
   Returns:
     ```txt
-    { "score": number, "total": number, "results": [ { "id": string|number, "correct": boolean } ] }
+    { "score": number, "total": number, "results": [ { "id": number, "correct": boolean } ] }
     ```
 ### Libraries Used
 * zod: for validating incoming Data/Resource
