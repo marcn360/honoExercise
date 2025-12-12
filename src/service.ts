@@ -1,13 +1,14 @@
+import { AnswersDto } from "./Dtos/answers.dto";
 import { QuizDto } from "./Dtos/quiz.dto";
 import { QuizAnswerDto } from "./Dtos/quizAnswer.dto";
 
-export function quizService(sentData: QuizAnswerDto[], quizData: QuizDto[]) {
+export function quizService(sentData: AnswersDto, quizData: QuizDto[]) {
   let quiz = quizData
-  let attempt = sentData
+  let attempt = sentData.answers
   let score = 0
   let check
   if (attempt.length > quiz.length) return 'please recheck sent resource'
-  
+
   check = attempt.map(attemptValue => {
     let attemptAnswers = []
     let quizAnswers = []
@@ -15,9 +16,16 @@ export function quizService(sentData: QuizAnswerDto[], quizData: QuizDto[]) {
     for (const quizAnswer of quiz[attemptValue.id - 1].answers) {
       quizAnswers.push(quizAnswer.answer.toLowerCase().replace(/\s/g, ''))
     }
-    for (const attempt of attemptValue.answers) {
-      attemptAnswers.push(attempt.answer.toLowerCase().replace(/\s/g, ''))
+
+    if (Array.isArray(attemptValue.answers)) {
+      for (const attempt of attemptValue.answers) {
+        attemptAnswers.push(attempt.answer.toLowerCase().replace(/\s/g, ''))
+      }
     }
+    else {
+      attemptAnswers.push(null)
+    }
+
 
 
     return attemptAnswers.every(value => {
@@ -33,5 +41,14 @@ export function quizService(sentData: QuizAnswerDto[], quizData: QuizDto[]) {
     if (value) score++
   })
 
-  return score 
+  return {
+    score,
+    total: score + '/'+ quiz.length,
+    result: attempt.map((value,index)=>{
+      return {
+        id:value.id,
+        correct:check[index]
+      }
+    })
+  }
 }

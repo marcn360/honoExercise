@@ -4,7 +4,7 @@ import { AnswerDto } from "./answer.dto"
 
 export class QuizAnswerDto {
   id: number
-  answers: AnswerDto[]
+  answers: AnswerDto[] 
 
   constructor(id: number, answers: AnswerDto[]) {
     this.id = id
