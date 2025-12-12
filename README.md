@@ -14,7 +14,8 @@ npm run dev
 
 ### Routes
 * GET /api/quiz
-* POST /api/grade
+* POST /api/grade 
+  <br>
   Accepts:
     ```txt
     { "answers": [ { "id": string|number, "value": string|number|number[] } ] }
